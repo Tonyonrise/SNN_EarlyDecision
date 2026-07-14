@@ -77,12 +77,6 @@ The project includes result visualizations for the SNN early-decision pipeline a
 
 ![SNN confusion matrix](figures/snn/confusion_matrix.png)
 
-## CV Description
-
-You can describe this project on a CV as:
-
-> Built a realtime hand gesture recognition system using PyTorch, snnTorch, and hand landmark sequences. Designed an SNN-based early-decision mechanism to predict from partial temporal input and validated the owner-collected dataset with an LSTM baseline.
-
 ## Notes
 
 - Trained checkpoints and datasets are not included in this repository.
