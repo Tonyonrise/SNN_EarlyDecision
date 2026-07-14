@@ -65,11 +65,6 @@ Each gesture is represented as a temporal sequence of 21 hand landmarks with 3D 
 
 This design targets lower decision latency while preserving classification reliability.
 
-## CV Description
-
-You can describe this project on a CV as:
-
-> Built a realtime hand gesture recognition system using PyTorch, snnTorch, and MediaPipe-style hand landmarks, with an SNN-based early-decision mechanism that predicts from partial temporal sequences to reduce inference latency.
 
 ## Notes
 
