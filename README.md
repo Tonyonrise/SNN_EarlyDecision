@@ -77,6 +77,14 @@ The project includes result visualizations for the SNN early-decision pipeline a
 
 ![SNN confusion matrix](figures/snn/confusion_matrix.png)
 
+## Future Work
+
+- Build a reproducible evaluation protocol for comparing SNN early decision against the LSTM baseline.
+- Analyze the trade-off between decision latency, confidence threshold, coverage, and classification accuracy.
+- Test generalization across different users, lighting conditions, camera positions, and gesture speeds.
+- Extend the dataset with more gesture classes and more balanced samples.
+- Explore deployment-oriented optimization, such as model compression or low-power edge inference.
+
 ## Notes
 
 - Trained checkpoints and datasets are not included in this repository.
