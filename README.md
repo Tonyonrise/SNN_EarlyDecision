@@ -65,8 +65,25 @@ Each gesture is represented as a temporal sequence of 21 hand landmarks with 3D 
 
 This design targets lower decision latency while preserving classification reliability.
 
+## Results
+
+The project includes result visualizations for the SNN early-decision pipeline and the LSTM baseline. The owner-collected dataset was first validated with an LSTM baseline, then used to evaluate the SNN early-decision behavior.
+
+### SNN Early-Decision Trade-off
+
+![SNN accuracy and coverage versus stop frame](figures/snn/accuracy_coverage_vs_stop_frame.png)
+
+### SNN Confusion Matrix
+
+![SNN confusion matrix](figures/snn/confusion_matrix.png)
+
+## CV Description
+
+You can describe this project on a CV as:
+
+> Built a realtime hand gesture recognition system using PyTorch, snnTorch, and hand landmark sequences. Designed an SNN-based early-decision mechanism to predict from partial temporal input and validated the owner-collected dataset with an LSTM baseline.
 
 ## Notes
 
 - Trained checkpoints and datasets are not included in this repository.
-- If you want reproducible public results, add a small sample dataset, evaluation script, and a table of measured accuracy/latency metrics.
+- For fully reproducible public results, add a small sample dataset, evaluation script, and a table of measured accuracy/latency metrics.

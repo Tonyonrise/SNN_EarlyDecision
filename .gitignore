@@ -22,10 +22,6 @@ weights/
 *.pt
 *.onnx
 
-# Keep selected visual outputs if you want to showcase them in the README.
-figures/*
-!figures/.gitkeep
-
 # OS/editor files
 .DS_Store
 Thumbs.db
